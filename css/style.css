@@ -1,0 +1,426 @@
+body{
+	margin: 0px;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 2;
+  font-size: 18px;
+  color: #777;
+}
+/*LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT*/
+.linehight{
+	background-color: #002A54;
+	font-size: 14px;
+  padding: 5px;
+  color: #E5E5F2;
+}
+.topright a{
+	color: #E5E5F2;
+	margin-left: 20px;
+
+}
+.linehight .location{
+	margin-left: 20px;
+}
+.linehight .phone{
+	margin-left: 20px;
+}
+.linehight .phone .rotate{
+	transform: rotate(90deg);
+}
+.linehight .mail{
+	margin-left: 20px;
+}
+/*LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT LINE HIGHT*/
+
+/*NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR navbar NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBARNAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR navbar NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR*/ 
+.navbar-nav{
+	margin-left: auto;
+
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #fff;
+  border-bottom: 3px solid #002A54;
+}
+.logoimg{
+	margin-left: 0px;
+}
+li{
+	font-size: 14px;
+  padding-right: 26px;
+}
+#navbar a {/*
+  float: left;*/
+  display: block;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+}
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+.hover{
+	color: #000!important;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.hover:hover{
+	color: #002A54!important;
+}
+/*NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR navbar NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBARNAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR navbar NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR NAVBAR*/ 
+#HOME{
+  background-image: url(../img/apple1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+}
+/*.overlay{
+  background-color: #000;
+  opacity: 0.6;
+  height: 710px;
+}*/
+/*LOG IN LOG IN LOG IN LOG IN LOG IN LOG IN LOG IN LOG IN LOG IN LOG IN*/
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #476486; /* Fallback color */
+    background-color: rgba(0,0,0,0.2); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #F6D76D;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #002A54;
+    width: 30%;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+.signup{
+  background-image: url(../img/bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: auto;
+  background-size: cover;
+}
+.text{
+  background-color: #F2F1F4;
+  margin-top: 70px;
+}
+/*LOG IN LOG IN LOG IN LOG IN LOG IN LOG IN LOG IN LOG IN LOG IN LOG IN*/
+.bg{/*ABOUT US*/
+  margin-top: 70px;
+  background-image: url(../img/fixed1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  color: #fff;
+}
+/*SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICESSERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES*/
+.dispay{
+	margin-top: 70px;
+}
+
+.any:hover{
+	background-color: #F8F9F9;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: 0.5s all ease;
+
+}
+.favicon{
+	 border: 1px solid coral;
+    background-color: #002A54;
+    text-align: center;
+    width: 68px;
+    height: 68px;
+    display: inline-block;
+    margin-bottom: 30px;
+  	transform: rotate(45deg);
+  	margin-top: 40px;
+}
+.favicon:hover{
+	
+	 transition: 0.5s all ease;
+}
+ .favicon .i{
+	  color: #fff;
+    font-size: 27px;
+    line-height: 68px;
+    text-align: center;
+    height: 97%;
+	  transform: rotate(-45deg);
+}
+.favicon .i:hover{
+	color: #fff;
+
+}
+.span{
+    font-size: 40px;
+    margin-bottom: 10px;
+	  text-align: center;
+    font-weight: 600;
+    color: #000;
+	  border-bottom: 1px solid #002A54;
+}
+.row{
+	margin-top: 40px;
+}
+p{
+	text-align: center;
+
+}
+h3{
+	font-weight: normal;
+
+}
+.readmore{
+	color: #002A54;
+}
+.bg1{
+	margin-top: 70px;
+	background-image: url(../img/fixed.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	color: #fff;
+}
+.overlayuser{
+	background-color: #262626;
+	opacity: 0.7;
+	padding: 80px 0;
+}
+.overlayuser h2{
+	margin-bottom: 20px;
+	font-weight: normal;
+}
+.overlayuser .p{
+ width: 60%;
+}
+.button .btn{
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #002A54;
+	color: #fff;
+  border: 1px solid #002A54;
+}
+.button .b:hover{
+  background-color: transparent;
+}
+.button .outline{
+	background: transparent;
+	color: #fff
+}
+.button .outline:hover{
+	background: #002A54;
+	color: #fff;
+}
+
+/*SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICESSERVICES SERVICES SERVICES */
+
+ /*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/*.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}*/
+.card:hover{
+  background-color: #F8F9F9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.5s all ease;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.h2{
+  text-align: center;
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #002A54;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #000;
+  color: coral;
+}
+ /*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*/
+ /*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*/
+ /*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*/
+ /*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*//*OUR TEAM*/
+
+
+.test{
+  margin-right: auto;
+  margin-left: auto;
+}
+.containerimg {
+  border: 2px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 0 auto;
+}
+.containerimg img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.name{
+  font-size: 25px;
+  margin-right: 15px;
+  font-weight: bold;
+  display: block;
+}
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .containerimg img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+ 
+
